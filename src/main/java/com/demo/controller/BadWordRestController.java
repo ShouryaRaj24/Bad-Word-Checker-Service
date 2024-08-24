@@ -39,6 +39,7 @@ public class BadWordRestController {
         this.badWordService = badWordService;
     }
 
+    @Operation(summary = "Load Bad words from file")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "File was loaded", content = @Content),
             @ApiResponse(responseCode = "400", description = "File load failed. See logs", content = @Content),
