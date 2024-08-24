@@ -69,6 +69,7 @@ public class BadWordRestController {
 
     }
 
+    @Operation(summary = "Check sentence for bad words")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Successfully Check Sentence", content = { @Content(mediaType = "application/json",
                     schema = @Schema(implementation = CheckSentenceResponse.class)) }),
