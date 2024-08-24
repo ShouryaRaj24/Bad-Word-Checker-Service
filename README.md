@@ -31,3 +31,10 @@ This endpoint allows you to load a list of inappropriate words into the system. 
 {
   "sentence": "Бомба Fuck dude Idiot BC Gandu"
 }
+```
+
+
+## For Swagger File
+**Go to Your browser and type** 
+`http://localhost:8080/api-docs`
+`http://localhost:8080/swagger-ui/index.html`
